@@ -1,0 +1,84 @@
+
+body {
+background-color: rgb(51, 13, 95);
+}
+*{
+    margin:0;
+    padding:0;
+
+
+}
+.main{
+    background-color: antiquewhite;
+    padding:1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.title{
+
+    font-size: 3em;
+    color: aqua;
+    width: 40;
+}
+.options{
+    width:30vw;
+    
+   
+}
+.option{
+ padding:0.25rem;
+    display: flex;
+        flex-direction: row;
+        list-style: none;
+        
+
+}
+li{
+    width: 40%;
+    height:100%;
+margin-right:10%;
+}
+        
+a{
+    padding-left:2.5rem ;
+    padding-right: 2.5rem;
+    padding-top:2.5rem ;
+    padding-bottom: 2.5rem;
+    text-decoration: none;
+    font-size: 2rem;
+    
+
+}
+.hex a{
+    text-decoration: underline;
+    text-decoration-color:black;
+    text-underline-offset: 0.5rem;
+
+}
+.mainblock{
+    
+    box-sizing: border-box;
+    padding: 2.5rem;
+    margin: auto;
+    margin-top: 10%;
+    width:40vw;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainblock h1{
+    font-size: 2.5rem;
+
+}
+.mainblock button{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    margin-top: 4rem;
+}
+#notelist{
+    background-color: blue;
+    overflow-y: auto;
+    height: 45vh;
+}
